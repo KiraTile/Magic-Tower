@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79c9407f9dea7f459bf8b2010fb441e, type: 3}
+  m_Name: SpawnSchedule
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnScheduleSO
+  spawnPadding: 4
+  enemySpawnHeight: 0.45
+  minimumPlayfieldHalfExtents: {x: 6, y: 4}
+  maxEnemies: 99999
+  phases:
+  - startTime: 0
+    spawnInterval: 0.5
+    healthMultiplier: 1
+    speedMultiplier: 1
+    weightMultiplier: 1
+  - startTime: 45
+    spawnInterval: 0.33
+    healthMultiplier: 1.25
+    speedMultiplier: 1.08
+    weightMultiplier: 1.15
+  - startTime: 90
+    spawnInterval: 0.25
+    healthMultiplier: 1.55
+    speedMultiplier: 1.16
+    weightMultiplier: 1.35

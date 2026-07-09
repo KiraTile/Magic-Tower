@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b31c0a9649d51147bf46d656a92ba08, type: 3}
+  m_Name: Barrage
+  m_EditorClassIdentifier: Assembly-CSharp::BarrageSpellConfigSO
+  cooldown: 2
+  initialDelay: 2
+  launchHeight: 1.4
+  damage: 10
+  projectileRadius: 0.18
+  hitEffects: []
+  flightTime: 0.75
+  arcHeight: 3.5
+  targetHeightOffset: 0.45
+  hitRadius: 0.55
